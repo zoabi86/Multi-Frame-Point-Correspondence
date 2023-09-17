@@ -1,0 +1,553 @@
+frame: 1 , numOfPoints: 3
+frame: 2 , numOfPoints: 4
+frame: 3 , numOfPoints: 4
+0
+1
+2
+Observed = (101.393,23.54)
+Predicted = (0,-1.41421)
+gain returned: -0.290119
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (279.328,311.987)
+observed is: (101.393,23.54)
+predicted is: (0,-1.41421)
+gain returned: -0.290119
+-----------------------------------END------------------------------------
+Observed = (47.057,-14.641)
+Predicted = (0,-1.41421)
+gain returned: 0.338051
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (224.992,273.806)
+observed is: (47.057,-14.641)
+predicted is: (0,-1.41421)
+gain returned: 0.338051
+-----------------------------------END------------------------------------
+Observed = (130.507,-67.739)
+Predicted = (0,-1.41421)
+gain returned: -0.27785
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (308.442,220.708)
+observed is: (130.507,-67.739)
+predicted is: (0,-1.41421)
+gain returned: -0.27785
+-----------------------------------END------------------------------------
+Observed = (132.037,-110.385)
+Predicted = (0,-1.41421)
+gain returned: -0.371916
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (309.972,178.062)
+observed is: (132.037,-110.385)
+predicted is: (0,-1.41421)
+gain returned: -0.371916
+-----------------------------------END------------------------------------
+Observed = (154.053,57.99)
+Predicted = (0,-1.41421)
+gain returned: -0.776034
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (279.328,311.987)
+observed is: (154.053,57.99)
+predicted is: (0,-1.41421)
+gain returned: -0.776034
+-----------------------------------END------------------------------------
+Observed = (99.717,19.809)
+Predicted = (0,-1.41421)
+gain returned: -0.258579
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (224.992,273.806)
+observed is: (99.717,19.809)
+predicted is: (0,-1.41421)
+gain returned: -0.258579
+-----------------------------------END------------------------------------
+Observed = (183.167,-33.289)
+Predicted = (0,-1.41421)
+gain returned: -0.684186
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (308.442,220.708)
+observed is: (183.167,-33.289)
+predicted is: (0,-1.41421)
+gain returned: -0.684186
+-----------------------------------END------------------------------------
+Observed = (184.697,-75.935)
+Predicted = (0,-1.41421)
+gain returned: -0.68719
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (309.972,178.062)
+observed is: (184.697,-75.935)
+predicted is: (0,-1.41421)
+gain returned: -0.68719
+-----------------------------------END------------------------------------
+Observed = (50.789,108.234)
+Predicted = (0,-1.41421)
+gain returned: -0.711844
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (279.328,311.987)
+observed is: (50.789,108.234)
+predicted is: (0,-1.41421)
+gain returned: -0.711844
+-----------------------------------END------------------------------------
+Observed = (-3.547,70.053)
+Predicted = (0,-1.41421)
+gain returned: -0.405396
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (224.992,273.806)
+observed is: (-3.547,70.053)
+predicted is: (0,-1.41421)
+gain returned: -0.405396
+-----------------------------------END------------------------------------
+Observed = (79.903,16.955)
+Predicted = (0,-1.41421)
+gain returned: -0.123146
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (308.442,220.708)
+observed is: (79.903,16.955)
+predicted is: (0,-1.41421)
+gain returned: -0.123146
+-----------------------------------END------------------------------------
+Observed = (81.433,-25.691)
+Predicted = (0,-1.41421)
+gain returned: 0.0845291
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (309.972,178.062)
+observed is: (81.433,-25.691)
+predicted is: (0,-1.41421)
+gain returned: 0.0845291
+-----------------------------------END------------------------------------
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = true
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = true
+calcSlop = 0 + -3.16971
+calcSlop = 0 + -3.21406
+Observed = (102.88,15.988)
+Predicted = (0,-1.41421)
+gain returned: -0.256908
+----------------------------------BEGIN-----------------------------------
+curr edge is: (279.328,311.987) -> (382.208,327.975)
+observed is: (102.88,15.988)
+predicted is: (0,-1.41421)
+gain returned: -0.256908
+-----------------------------------END------------------------------------
+Observed = (51.669,-21.347)
+Predicted = (0,-1.41421)
+gain returned: 0.33023
+----------------------------------BEGIN-----------------------------------
+curr edge is: (279.328,311.987) -> (330.997,290.64)
+observed is: (51.669,-21.347)
+predicted is: (0,-1.41421)
+gain returned: 0.33023
+-----------------------------------END------------------------------------
+Observed = (104.384,-92.368)
+Predicted = (0,-1.41421)
+gain returned: -0.130785
+----------------------------------BEGIN-----------------------------------
+curr edge is: (279.328,311.987) -> (383.712,219.619)
+observed is: (104.384,-92.368)
+predicted is: (0,-1.41421)
+gain returned: -0.130785
+-----------------------------------END------------------------------------
+Observed = (100.961,-142.679)
+Predicted = (0,-1.41421)
+gain returned: -0.310443
+----------------------------------BEGIN-----------------------------------
+curr edge is: (279.328,311.987) -> (380.289,169.308)
+observed is: (100.961,-142.679)
+predicted is: (0,-1.41421)
+gain returned: -0.310443
+-----------------------------------END------------------------------------
+Observed = (157.216,54.169)
+Predicted = (-1.20072,-0.74717)
+gain returned: -1.07425
+----------------------------------BEGIN-----------------------------------
+curr edge is: (224.992,273.806) -> (382.208,327.975)
+observed is: (157.216,54.169)
+predicted is: (-1.20072,-0.74717)
+gain returned: -1.07425
+-----------------------------------END------------------------------------
+Observed = (106.005,16.834)
+Predicted = (-1.20072,-0.74717)
+gain returned: -0.632813
+----------------------------------BEGIN-----------------------------------
+curr edge is: (224.992,273.806) -> (330.997,290.64)
+observed is: (106.005,16.834)
+predicted is: (-1.20072,-0.74717)
+gain returned: -0.632813
+-----------------------------------END------------------------------------
+Observed = (158.72,-54.187)
+Predicted = (-1.20072,-0.74717)
+gain returned: -0.927039
+----------------------------------BEGIN-----------------------------------
+curr edge is: (224.992,273.806) -> (383.712,219.619)
+observed is: (158.72,-54.187)
+predicted is: (-1.20072,-0.74717)
+gain returned: -0.927039
+-----------------------------------END------------------------------------
+Observed = (155.297,-104.498)
+Predicted = (-1.20072,-0.74717)
+gain returned: -0.961959
+----------------------------------BEGIN-----------------------------------
+curr edge is: (224.992,273.806) -> (380.289,169.308)
+observed is: (155.297,-104.498)
+predicted is: (-1.20072,-0.74717)
+gain returned: -0.961959
+-----------------------------------END------------------------------------
+Observed = (73.766,107.267)
+Predicted = (0,-1.41421)
+gain returned: -0.749577
+----------------------------------BEGIN-----------------------------------
+curr edge is: (308.442,220.708) -> (382.208,327.975)
+observed is: (73.766,107.267)
+predicted is: (0,-1.41421)
+gain returned: -0.749577
+-----------------------------------END------------------------------------
+Observed = (22.555,69.932)
+Predicted = (0,-1.41421)
+gain returned: -0.407379
+----------------------------------BEGIN-----------------------------------
+curr edge is: (308.442,220.708) -> (330.997,290.64)
+observed is: (22.555,69.932)
+predicted is: (0,-1.41421)
+gain returned: -0.407379
+-----------------------------------END------------------------------------
+Observed = (75.27,-1.089)
+Predicted = (0,-1.41421)
+gain returned: 0.0242656
+----------------------------------BEGIN-----------------------------------
+curr edge is: (308.442,220.708) -> (383.712,219.619)
+observed is: (75.27,-1.089)
+predicted is: (0,-1.41421)
+gain returned: 0.0242656
+-----------------------------------END------------------------------------
+Observed = (71.847,-51.4)
+Predicted = (0,-1.41421)
+gain returned: 0.192936
+----------------------------------BEGIN-----------------------------------
+curr edge is: (308.442,220.708) -> (380.289,169.308)
+observed is: (71.847,-51.4)
+predicted is: (0,-1.41421)
+gain returned: 0.192936
+-----------------------------------END------------------------------------
+Observed = (72.236,149.913)
+Predicted = (-1.19603,-0.754662)
+gain returned: -1.01671
+----------------------------------BEGIN-----------------------------------
+curr edge is: (309.972,178.062) -> (382.208,327.975)
+observed is: (72.236,149.913)
+predicted is: (-1.19603,-0.754662)
+gain returned: -1.01671
+-----------------------------------END------------------------------------
+Observed = (21.025,112.578)
+Predicted = (-1.19603,-0.754662)
+gain returned: -0.57256
+----------------------------------BEGIN-----------------------------------
+curr edge is: (309.972,178.062) -> (330.997,290.64)
+observed is: (21.025,112.578)
+predicted is: (-1.19603,-0.754662)
+gain returned: -0.57256
+-----------------------------------END------------------------------------
+Observed = (73.74,41.557)
+Predicted = (-1.19603,-0.754662)
+gain returned: -0.507954
+----------------------------------BEGIN-----------------------------------
+curr edge is: (309.972,178.062) -> (383.712,219.619)
+observed is: (73.74,41.557)
+predicted is: (-1.19603,-0.754662)
+gain returned: -0.507954
+-----------------------------------END------------------------------------
+Observed = (70.317,-8.754)
+Predicted = (-1.19603,-0.754662)
+gain returned: -0.30682
+----------------------------------BEGIN-----------------------------------
+curr edge is: (309.972,178.062) -> (380.289,169.308)
+observed is: (70.317,-8.754)
+predicted is: (-1.19603,-0.754662)
+gain returned: -0.30682
+-----------------------------------END------------------------------------
+Observed = (204.273,39.528)
+Predicted = (0,-1.41421)
+gain returned: -1.00865
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (382.208,327.975)
+observed is: (204.273,39.528)
+predicted is: (0,-1.41421)
+gain returned: -0.108647
+-----------------------------------END------------------------------------
+Observed = (153.062,2.193)
+Predicted = (0,-1.41421)
+gain returned: -0.539059
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (330.997,290.64)
+observed is: (153.062,2.193)
+predicted is: (0,-1.41421)
+gain returned: 0.360941
+-----------------------------------END------------------------------------
+Observed = (205.777,-68.828)
+Predicted = (0,-1.41421)
+gain returned: -0.838414
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (383.712,219.619)
+observed is: (205.777,-68.828)
+predicted is: (0,-1.41421)
+gain returned: 0.061586
+-----------------------------------END------------------------------------
+Observed = (202.354,-119.139)
+Predicted = (0,-1.41421)
+gain returned: -0.877077
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (380.289,169.308)
+observed is: (202.354,-119.139)
+predicted is: (0,-1.41421)
+gain returned: 0.0229225
+-----------------------------------END------------------------------------
+Observed = (47.057,-14.641)
+Predicted = (0,-1.41421)
+gain returned: 0.338051
+----------------------------------BEGIN-----------------------------------
+curr edge is: (177.935,288.447) -> (224.992,273.806)
+observed is: (47.057,-14.641)
+predicted is: (0,-1.41421)
+gain returned: 0.338051
+-----------------------------------END------------------------------------
+Observed = (256.933,73.978)
+Predicted = (0,-1.41421)
+gain returned: -1.4679
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (382.208,327.975)
+observed is: (256.933,73.978)
+predicted is: (0,-1.41421)
+gain returned: -0.567899
+-----------------------------------END------------------------------------
+Observed = (205.722,36.643)
+Predicted = (0,-1.41421)
+gain returned: -1.00827
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (330.997,290.64)
+observed is: (205.722,36.643)
+predicted is: (0,-1.41421)
+gain returned: -0.108268
+-----------------------------------END------------------------------------
+Observed = (258.437,-34.378)
+Predicted = (0,-1.41421)
+gain returned: -1.23289
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (383.712,219.619)
+observed is: (258.437,-34.378)
+predicted is: (0,-1.41421)
+gain returned: -0.332893
+-----------------------------------END------------------------------------
+Observed = (255.014,-84.689)
+Predicted = (0,-1.41421)
+gain returned: -1.2051
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (380.289,169.308)
+observed is: (255.014,-84.689)
+predicted is: (0,-1.41421)
+gain returned: -0.305103
+-----------------------------------END------------------------------------
+Observed = (153.669,124.222)
+Predicted = (0,-1.41421)
+gain returned: -1.13644
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (382.208,327.975)
+observed is: (153.669,124.222)
+predicted is: (0,-1.41421)
+gain returned: -0.236438
+-----------------------------------END------------------------------------
+Observed = (102.458,86.887)
+Predicted = (0,-1.41421)
+gain returned: -0.697467
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (330.997,290.64)
+observed is: (102.458,86.887)
+predicted is: (0,-1.41421)
+gain returned: 0.202533
+-----------------------------------END------------------------------------
+Observed = (155.173,15.866)
+Predicted = (0,-1.41421)
+gain returned: -0.599794
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (383.712,219.619)
+observed is: (155.173,15.866)
+predicted is: (0,-1.41421)
+gain returned: 0.300206
+-----------------------------------END------------------------------------
+Observed = (151.75,-34.445)
+Predicted = (0,-1.41421)
+gain returned: -0.44855
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (380.289,169.308)
+observed is: (151.75,-34.445)
+predicted is: (0,-1.41421)
+gain returned: 0.45145
+-----------------------------------END------------------------------------
+Observed = (81.433,-25.691)
+Predicted = (0,-1.41421)
+gain returned: 0.0845291
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (309.972,178.062)
+observed is: (81.433,-25.691)
+predicted is: (0,-1.41421)
+gain returned: 0.0845291
+-----------------------------------END------------------------------------
+382.2,328
+331,290.6
+383.7,219.6
+380.3,169.3
+279.3,312
+225,273.8
+308.4,220.7
+310,178.1
+177.9,288.4
+125.3,254
+228.5,203.8
+Create 'MFPCgraph0.eps'
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: EXT isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: EXT isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: EXT isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: EXT isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: OLD isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: EXT isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: CORR isValid = true
+ current arc is: OLD isValid = true
+********* current arc is: CORR isValid = false
+********* current arc is: OLD isValid = true
+********* current arc is: CORR isValid = false
+********* current arc is: EXT isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: EXT isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: OLD isValid = true
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: EXT isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: OLD isValid = true
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: EXT isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: CORR isValid = false
+********* current arc is: OLD isValid = true
+********* current arc is: CORR isValid = false
+********* current arc is: OLD isValid = false
+yeah
+382.2,328
+331,290.6
+383.7,219.6
+380.3,169.3
+279.3,312
+225,273.8
+308.4,220.7
+310,178.1
+177.9,288.4
+125.3,254
+228.5,203.8
+Create 'MFPCgraph1.eps'
+Observed = (184.697,-75.935)
+Predicted = (0,-1.41421)
+gain returned: -0.68719
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (125.275,253.997)
+observed is: (184.697,-75.935)
+predicted is: (0,-1.41421)
+gain returned: -0.68719
+-----------------------------------END------------------------------------
+Observed = (183.167,-33.289)
+Predicted = (0,-1.41421)
+gain returned: -0.684186
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (177.935,288.447)
+observed is: (183.167,-33.289)
+predicted is: (0,-1.41421)
+gain returned: -0.684186
+-----------------------------------END------------------------------------
+Observed = (154.053,57.99)
+Predicted = (0,-1.41421)
+gain returned: -0.776034
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (309.972,178.062)
+observed is: (154.053,57.99)
+predicted is: (0,-1.41421)
+gain returned: -0.776034
+-----------------------------------END------------------------------------
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+Observed = (157.216,54.169)
+Predicted = (0,-1.41421)
+gain returned: -0.775708
+----------------------------------BEGIN-----------------------------------
+curr edge is: (125.275,253.997) -> (177.935,288.447)
+observed is: (157.216,54.169)
+predicted is: (0,-1.41421)
+gain returned: -0.775708
+-----------------------------------END------------------------------------
+Observed = (72.236,149.913)
+Predicted = (0,-1.41421)
+gain returned: -1.0411
+----------------------------------BEGIN-----------------------------------
+curr edge is: (228.539,203.753) -> (177.935,288.447)
+observed is: (72.236,149.913)
+predicted is: (0,-1.41421)
+gain returned: -1.0411
+-----------------------------------END------------------------------------
+ current arc is: OLD isValid = true
+ current arc is: OLD isValid = true
+********* current arc is: OLD isValid = false
+********* current arc is: OLD isValid = false
+calcSlop = 0 + -1.3978
+calcSlop = 0 + 9.78022
+calcSlop = 0 + -2.42043

@@ -1,0 +1,132 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Sample .eps figure (with arrowheads)
+%%Copyright: (C) 2003-2009 LEMON Project
+%%Creator: LEMON, graphToEps()
+%%CreationDate: Thu Sep 15 08:35:01 2011
+%%BoundingBox: 115 159 582 339
+%%EndComments
+/lb { setlinewidth setrgbcolor newpath moveto
+      4 2 roll 1 index 1 index curveto stroke } bind def
+/l { setlinewidth setrgbcolor newpath moveto lineto stroke } bind def
+/c { newpath dup 3 index add 2 index moveto 0 360 arc closepath } bind def
+/sq { newpath 2 index 1 index add 2 index 2 index add moveto
+      2 index 1 index sub 2 index 2 index add lineto
+      2 index 1 index sub 2 index 2 index sub lineto
+      2 index 1 index add 2 index 2 index sub lineto
+      closepath pop pop pop} bind def
+/di { newpath 2 index 1 index add 2 index moveto
+      2 index             2 index 2 index add lineto
+      2 index 1 index sub 2 index             lineto
+      2 index             2 index 2 index sub lineto
+      closepath pop pop pop} bind def
+/nc { 0 0 0 setrgbcolor 5 index 5 index 5 index c fill
+     setrgbcolor 1.1 div c fill
+   } bind def
+/nsq { 0 0 0 setrgbcolor 5 index 5 index 5 index sq fill
+     setrgbcolor 1.1 div sq fill
+   } bind def
+/ndi { 0 0 0 setrgbcolor 5 index 5 index 5 index di fill
+     setrgbcolor 1.1 div di fill
+   } bind def
+/nfemale { 0 0 0 setrgbcolor 3 index 0.0909091 1.5 mul mul setlinewidth
+  newpath 5 index 5 index moveto 5 index 5 index 5 index 3.01 mul sub
+  lineto 5 index 4 index .7 mul sub 5 index 5 index 2.2 mul sub moveto
+  5 index 4 index .7 mul add 5 index 5 index 2.2 mul sub lineto stroke
+  5 index 5 index 5 index c fill
+  setrgbcolor 1.1 div c fill
+  } bind def
+/nmale {
+  0 0 0 setrgbcolor 3 index 0.0909091 1.5 mul mul setlinewidth
+  newpath 5 index 5 index moveto
+  5 index 4 index 1 mul 1.5 mul add
+  5 index 5 index 3 sqrt 1.5 mul mul add
+  1 index 1 index lineto
+  1 index 1 index 7 index sub moveto
+  1 index 1 index lineto
+  exch 5 index 3 sqrt .5 mul mul sub exch 5 index .5 mul sub lineto
+  stroke
+  5 index 5 index 5 index c fill
+  setrgbcolor 1.1 div c fill
+  } bind def
+/arrl 1 def
+/arrw 0.12 def
+/lrl { 2 index mul exch 2 index mul exch rlineto pop} bind def
+/arr { setrgbcolor /y1 exch def /x1 exch def /dy exch def /dx exch def
+       /w exch def /len exch def
+       newpath x1 dy w 2 div mul add y1 dx w 2 div mul sub moveto
+       len w sub arrl sub dx dy lrl
+       arrw dy dx neg lrl
+       dx arrl w add mul dy w 2 div arrw add mul sub
+       dy arrl w add mul dx w 2 div arrw add mul add rlineto
+       dx arrl w add mul neg dy w 2 div arrw add mul sub
+       dy arrl w add mul neg dx w 2 div arrw add mul add rlineto
+       arrw dy dx neg lrl
+       len w sub arrl sub neg dx dy lrl
+       closepath fill } bind def
+/cshow { 2 index 2 index moveto dup stringwidth pop
+         neg 2 div fosi .35 mul neg rmoveto show pop pop} def
+
+gsave
+0.1 dup scale
+%Arcs:
+gsave
+0.2 setlinewidth 1 0 0 setrgbcolor newpath
+2285 2037 moveto
+4000.62 2116.46 4001.5 2116.5 5715.36 2195.88 curveto stroke
+newpath 5716.56 2195.93 moveto 5715.37 2195.66 lineto 5715.35 2196.1 lineto closepath fill
+0.2 setlinewidth 0 0 1 setrgbcolor newpath
+1779 2884 moveto
+2529.12 2811.09 2530 2811 3278.37 2738.26 curveto stroke
+newpath 3279.57 2738.14 moveto 3278.35 2738.04 lineto 3278.39 2738.47 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4116 2207 moveto
+4898.66 1950.27 4899.5 1950 5680.49 1693.82 curveto stroke
+newpath 5681.63 1693.45 moveto 5680.42 1693.61 lineto 5680.56 1694.03 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3825 3119 moveto
+4506.63 3012.64 4507.5 3012.5 5187.39 2906.41 curveto stroke
+newpath 5188.58 2906.22 moveto 5187.36 2906.19 lineto 5187.43 2906.62 lineto closepath fill
+grestore
+%Nodes:
+gsave
+5703 3279 1.44 1 0 0 nc
+5190 2906 1.44 1 0 0 nc
+5718 2196 1.44 1 0 0 nc
+5683 1693 1.44 1 0 0 nc
+3825 3119 1.44 1 0 0 nc
+3281 2738 1.44 1 0 0 nc
+4116 2207 1.44 1 0 0 nc
+4131 1780 1.44 1 0 0 nc
+1779 2884 1.44 1 0 0 nc
+1252 2539 1.44 1 0 0 nc
+2285 2037 1.44 1 0 0 nc
+grestore
+%Node texts:
+gsave
+/fosi 1.08 def
+(Helvetica) findfont fosi scalefont setfont
+0 0 0 setrgbcolor
+5703 3279 ((382.2,328)) cshow
+0 0 0 setrgbcolor
+5190 2906 ((331,290.6)) cshow
+0 0 0 setrgbcolor
+5718 2196 ((383.7,219.6)) cshow
+0 0 0 setrgbcolor
+5683 1693 ((380.3,169.3)) cshow
+0 0 0 setrgbcolor
+3825 3119 ((279.3,312)) cshow
+0 0 0 setrgbcolor
+3281 2738 ((225,273.8)) cshow
+0 0 0 setrgbcolor
+4116 2207 ((308.4,220.7)) cshow
+0 0 0 setrgbcolor
+4131 1780 ((310,178.1)) cshow
+0 0 0 setrgbcolor
+1779 2884 ((177.9,288.4)) cshow
+0 0 0 setrgbcolor
+1252 2539 ((125.3,254)) cshow
+0 0 0 setrgbcolor
+2285 2037 ((228.5,203.8)) cshow
+grestore
+grestore
+showpage

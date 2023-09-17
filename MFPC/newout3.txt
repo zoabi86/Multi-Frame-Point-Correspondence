@@ -1,0 +1,22 @@
+ 	Label	XM	YM
+1	0075.jpeg	228.539	203.753
+2	0075.jpeg	125.275	253.997
+3	0075.jpeg	177.935	288.447
+*****6*******
+ 	Label	XM	YM
+1	0079.jpeg	309.972	178.062
+2	0079.jpeg	308.442	220.708
+3	0079.jpeg	224.992	273.806
+4	0079.jpeg	279.328	311.987
+*****6*******
+ 	Label	XM	YM
+1	0083.jpeg	380.289	169.308
+2	0083.jpeg	383.712	219.619
+3	0083.jpeg	330.997	290.640
+4	0083.jpeg	382.208	327.975
+*****6*******
+File is not in a supported format, a reader
+plugin is not available, or it was not found. 
+	 
+C:\Users\Xee\Desktop\ImgSeq\Results/
+There are no images open.

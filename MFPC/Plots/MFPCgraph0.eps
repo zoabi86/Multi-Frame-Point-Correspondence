@@ -1,0 +1,236 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: Sample .eps figure (with arrowheads)
+%%Copyright: (C) 2003-2009 LEMON Project
+%%Creator: LEMON, graphToEps()
+%%CreationDate: Thu Sep 15 08:35:01 2011
+%%BoundingBox: 115 159 582 339
+%%EndComments
+/lb { setlinewidth setrgbcolor newpath moveto
+      4 2 roll 1 index 1 index curveto stroke } bind def
+/l { setlinewidth setrgbcolor newpath moveto lineto stroke } bind def
+/c { newpath dup 3 index add 2 index moveto 0 360 arc closepath } bind def
+/sq { newpath 2 index 1 index add 2 index 2 index add moveto
+      2 index 1 index sub 2 index 2 index add lineto
+      2 index 1 index sub 2 index 2 index sub lineto
+      2 index 1 index add 2 index 2 index sub lineto
+      closepath pop pop pop} bind def
+/di { newpath 2 index 1 index add 2 index moveto
+      2 index             2 index 2 index add lineto
+      2 index 1 index sub 2 index             lineto
+      2 index             2 index 2 index sub lineto
+      closepath pop pop pop} bind def
+/nc { 0 0 0 setrgbcolor 5 index 5 index 5 index c fill
+     setrgbcolor 1.1 div c fill
+   } bind def
+/nsq { 0 0 0 setrgbcolor 5 index 5 index 5 index sq fill
+     setrgbcolor 1.1 div sq fill
+   } bind def
+/ndi { 0 0 0 setrgbcolor 5 index 5 index 5 index di fill
+     setrgbcolor 1.1 div di fill
+   } bind def
+/nfemale { 0 0 0 setrgbcolor 3 index 0.0909091 1.5 mul mul setlinewidth
+  newpath 5 index 5 index moveto 5 index 5 index 5 index 3.01 mul sub
+  lineto 5 index 4 index .7 mul sub 5 index 5 index 2.2 mul sub moveto
+  5 index 4 index .7 mul add 5 index 5 index 2.2 mul sub lineto stroke
+  5 index 5 index 5 index c fill
+  setrgbcolor 1.1 div c fill
+  } bind def
+/nmale {
+  0 0 0 setrgbcolor 3 index 0.0909091 1.5 mul mul setlinewidth
+  newpath 5 index 5 index moveto
+  5 index 4 index 1 mul 1.5 mul add
+  5 index 5 index 3 sqrt 1.5 mul mul add
+  1 index 1 index lineto
+  1 index 1 index 7 index sub moveto
+  1 index 1 index lineto
+  exch 5 index 3 sqrt .5 mul mul sub exch 5 index .5 mul sub lineto
+  stroke
+  5 index 5 index 5 index c fill
+  setrgbcolor 1.1 div c fill
+  } bind def
+/arrl 1 def
+/arrw 0.12 def
+/lrl { 2 index mul exch 2 index mul exch rlineto pop} bind def
+/arr { setrgbcolor /y1 exch def /x1 exch def /dy exch def /dx exch def
+       /w exch def /len exch def
+       newpath x1 dy w 2 div mul add y1 dx w 2 div mul sub moveto
+       len w sub arrl sub dx dy lrl
+       arrw dy dx neg lrl
+       dx arrl w add mul dy w 2 div arrw add mul sub
+       dy arrl w add mul dx w 2 div arrw add mul add rlineto
+       dx arrl w add mul neg dy w 2 div arrw add mul sub
+       dy arrl w add mul neg dx w 2 div arrw add mul add rlineto
+       arrw dy dx neg lrl
+       len w sub arrl sub neg dx dy lrl
+       closepath fill } bind def
+/cshow { 2 index 2 index moveto dup stringwidth pop
+         neg 2 div fosi .35 mul neg rmoveto show pop pop} def
+
+gsave
+0.1 dup scale
+%Arcs:
+gsave
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+2285 2037 moveto
+3207.13 1908.62 3208 1908.5 4128.39 1780.36 curveto stroke
+newpath 4129.57 1780.2 moveto 4128.36 1780.15 lineto 4128.42 1780.58 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+2285 2037 moveto
+3983.13 1865.09 3984 1865 5680.38 1693.27 curveto stroke
+newpath 5681.57 1693.14 moveto 5680.35 1693.05 lineto 5680.4 1693.48 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+2285 2037 moveto
+4000.62 2116.46 4001.5 2116.5 5715.36 2195.88 curveto stroke
+newpath 5716.56 2195.93 moveto 5715.37 2195.66 lineto 5715.35 2196.1 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+2285 2037 moveto
+3736.66 2471.25 3737.5 2471.5 5187.47 2905.24 curveto stroke
+newpath 5188.62 2905.59 moveto 5187.53 2905.03 lineto 5187.41 2905.45 lineto closepath fill
+0.2 setlinewidth 1 0 0 setrgbcolor newpath
+2285 2037 moveto
+3993.17 2657.7 3994 2658 5700.52 3278.1 curveto stroke
+newpath 5701.65 3278.51 moveto 5700.6 3277.89 lineto 5700.45 3278.31 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1252 2539 moveto
+3466.63 2116.17 3467.5 2116 5680.4 1693.5 curveto stroke
+newpath 5681.58 1693.27 moveto 5680.36 1693.28 lineto 5680.44 1693.71 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1252 2539 moveto
+3484.12 2367.57 3485 2367.5 5715.37 2196.2 curveto stroke
+newpath 5716.57 2196.11 moveto 5715.35 2195.98 lineto 5715.39 2196.42 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1252 2539 moveto
+3220.12 2722.42 3221 2722.5 5187.37 2905.75 curveto stroke
+newpath 5188.57 2905.87 moveto 5187.39 2905.54 lineto 5187.35 2905.97 lineto closepath fill
+0.2 setlinewidth 0 1 0 setrgbcolor newpath
+1252 2539 moveto
+3476.63 2908.86 3477.5 2909 5700.39 3278.57 curveto stroke
+newpath 5701.58 3278.76 moveto 5700.43 3278.35 lineto 5700.35 3278.78 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1779 2884 moveto
+2529.12 2811.09 2530 2811 3278.37 2738.26 curveto stroke
+newpath 3279.57 2738.14 moveto 3278.35 2738.04 lineto 3278.39 2738.47 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1779 2884 moveto
+3730.16 2288.76 3731 2288.5 5680.48 1693.77 curveto stroke
+newpath 5681.62 1693.42 moveto 5680.41 1693.56 lineto 5680.54 1693.98 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1779 2884 moveto
+3747.63 2540.15 3748.5 2540 5715.4 2196.45 curveto stroke
+newpath 5716.58 2196.25 moveto 5715.37 2196.24 lineto 5715.44 2196.67 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+1779 2884 moveto
+3483.62 2894.99 3484.5 2895 5187.36 2905.98 curveto stroke
+newpath 5188.56 2905.99 moveto 5187.36 2905.76 lineto 5187.36 2906.2 lineto closepath fill
+0.2 setlinewidth 0 0 1 setrgbcolor newpath
+1779 2884 moveto
+3740.12 3081.41 3741 3081.5 5700.37 3278.74 curveto stroke
+newpath 5701.57 3278.86 moveto 5700.4 3278.52 lineto 5700.35 3278.95 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4131 1780 moveto
+4906.12 1736.55 4907 1736.5 5680.37 1693.15 curveto stroke
+newpath 5681.56 1693.08 moveto 5680.35 1692.93 lineto 5680.38 1693.37 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4131 1780 moveto
+4923.65 1987.78 4924.5 1988 5715.45 2195.33 curveto stroke
+newpath 5716.61 2195.64 moveto 5715.5 2195.12 lineto 5715.39 2195.54 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4131 1780 moveto
+4659.9 2342.36 4660.5 2343 5188.19 2904.08 curveto stroke
+newpath 5189.01 2904.95 moveto 5188.35 2903.93 lineto 5188.03 2904.23 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4131 1780 moveto
+4916.36 2528.89 4917 2529.5 5701.09 3277.18 curveto stroke
+newpath 5701.96 3278.01 moveto 5701.24 3277.02 lineto 5700.94 3277.34 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4116 2207 moveto
+4898.66 1950.27 4899.5 1950 5680.49 1693.82 curveto stroke
+newpath 5681.63 1693.45 moveto 5680.42 1693.61 lineto 5680.56 1694.03 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4116 2207 moveto
+4916.12 2201.51 4917 2201.5 5715.36 2196.02 curveto stroke
+newpath 5716.56 2196.01 moveto 5715.36 2195.8 lineto 5715.36 2196.24 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4116 2207 moveto
+4652.26 2556.02 4653 2556.5 5187.79 2904.56 curveto stroke
+newpath 5188.79 2905.21 moveto 5187.91 2904.38 lineto 5187.67 2904.74 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+4116 2207 moveto
+4908.77 2742.51 4909.5 2743 5700.81 3277.52 curveto stroke
+newpath 5701.81 3278.19 moveto 5700.94 3277.34 lineto 5700.69 3277.71 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3281 2738 moveto
+4481.19 2215.85 4482 2215.5 5680.58 1694.05 curveto stroke
+newpath 5681.68 1693.57 moveto 5680.49 1693.85 lineto 5680.67 1694.25 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3281 2738 moveto
+4498.64 2467.19 4499.5 2467 5715.42 2196.57 curveto stroke
+newpath 5716.59 2196.31 moveto 5715.37 2196.36 lineto 5715.47 2196.79 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3281 2738 moveto
+4234.62 2821.92 4235.5 2822 5187.37 2905.77 curveto stroke
+newpath 5188.57 2905.87 moveto 5187.39 2905.55 lineto 5187.35 2905.99 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3281 2738 moveto
+4491.14 3008.31 4492 3008.5 5700.42 3278.42 curveto stroke
+newpath 5701.6 3278.69 moveto 5700.47 3278.21 lineto 5700.38 3278.64 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3825 3119 moveto
+4753.3 2406.54 4754 2406 5680.91 1694.61 curveto stroke
+newpath 5681.86 1693.88 moveto 5680.77 1694.43 lineto 5681.04 1694.78 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3825 3119 moveto
+4770.71 2657.89 4771.5 2657.5 5715.62 2197.16 curveto stroke
+newpath 5716.7 2196.63 moveto 5715.53 2196.96 lineto 5715.72 2197.36 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3825 3119 moveto
+4506.63 3012.64 4507.5 3012.5 5187.39 2906.41 curveto stroke
+newpath 5188.58 2906.22 moveto 5187.36 2906.19 lineto 5187.43 2906.62 lineto closepath fill
+0.2 setlinewidth 0 0.5 0.5 setrgbcolor newpath
+3825 3119 moveto
+4763.12 3198.93 4764 3199 5700.37 3278.78 curveto stroke
+newpath 5701.56 3278.88 moveto 5700.39 3278.56 lineto 5700.35 3279 lineto closepath fill
+grestore
+%Nodes:
+gsave
+5703 3279 1.44 1 0 0 nc
+5190 2906 1.44 1 0 0 nc
+5718 2196 1.44 1 0 0 nc
+5683 1693 1.44 1 0 0 nc
+3825 3119 1.44 1 0 0 nc
+3281 2738 1.44 1 0 0 nc
+4116 2207 1.44 1 0 0 nc
+4131 1780 1.44 1 0 0 nc
+1779 2884 1.44 1 0 0 nc
+1252 2539 1.44 1 0 0 nc
+2285 2037 1.44 1 0 0 nc
+grestore
+%Node texts:
+gsave
+/fosi 1.08 def
+(Helvetica) findfont fosi scalefont setfont
+0 0 0 setrgbcolor
+5703 3279 ((382.2,328)) cshow
+0 0 0 setrgbcolor
+5190 2906 ((331,290.6)) cshow
+0 0 0 setrgbcolor
+5718 2196 ((383.7,219.6)) cshow
+0 0 0 setrgbcolor
+5683 1693 ((380.3,169.3)) cshow
+0 0 0 setrgbcolor
+3825 3119 ((279.3,312)) cshow
+0 0 0 setrgbcolor
+3281 2738 ((225,273.8)) cshow
+0 0 0 setrgbcolor
+4116 2207 ((308.4,220.7)) cshow
+0 0 0 setrgbcolor
+4131 1780 ((310,178.1)) cshow
+0 0 0 setrgbcolor
+1779 2884 ((177.9,288.4)) cshow
+0 0 0 setrgbcolor
+1252 2539 ((125.3,254)) cshow
+0 0 0 setrgbcolor
+2285 2037 ((228.5,203.8)) cshow
+grestore
+grestore
+showpage
